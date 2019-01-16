@@ -28,7 +28,95 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
+    background-color: #019;
     width: 100%;
     overflow-x: hidden;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    clear: both;
+    display: block;
+    height: auto;
+}
+
+
+/*header styles*/
+
+header {
+    display: block;
+    height: auto;
+    padding-bottom: 0;
+    overflow: visible;
+    transition: all 0.2s ease-out 0s;
+    margin: 0px;
+    padding: 5px;
+    width: 100%;
+    border-color: #599a68;
+    background: lightskyblue;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header h1 {
+    text-align: left;
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    color: lemonchiffon;
+    padding-left: 18px;
+}
+
+header h1 a {
+    color: #eee;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+}
+
+header h1 a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+header .navigation {
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    margin-top: 7px;
+/*    float: right;*/
+}
+
+header .navigation ul {
+    list-style: none;
+}
+
+header .navigation li {
+    display: inline-block;
+    padding: 3px 10px;
+}
+
+header .navigation a {
+    font-weight: 800;
+    color: #eee;
+    text-decoration: none;
+}
+
+/* links */
+
+header .navigation a:link,
+header .navigation a:visited {
+    color: #eee;
+}
+
+header .navigation a:hover,
+header .navigation a:focus {
+    color: white;
+}
+
+header .navigation a:active {
+    color: #eee;
 }
