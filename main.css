@@ -54,7 +54,7 @@ header {
     padding: 5px;
     width: 100%;
     border-color: #599a68;
-    background: lightskyblue;
+    background: #6C72B6;
     text-align: left;
     position: fixed;
     top: 0;
@@ -118,4 +118,26 @@ header .navigation a:focus {
 
 header .navigation a:active {
     color: #eee;
+}
+.about-event{
+}
+.about-event p{
+    line-height: 24px;
+    padding-bottom: 10px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.text-wrapper{
+        background: #D65838;
+}
+
+footer{
+   padding: 40px;
+    display: block;
+}
+footer .credits{
+/*    margin-top: 100px;*/
+    font-size: 14px;
 }
