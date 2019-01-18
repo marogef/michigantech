@@ -54,7 +54,7 @@ header {
     padding: 5px;
     width: 100%;
     border-color: #599a68;
-    background: #6C72B6;
+    background: #FEEDDF;
     text-align: left;
     position: fixed;
     top: 0;
@@ -71,14 +71,14 @@ header h1 {
 }
 
 header h1 a {
-    color: #eee;
+    color: #3A3549;
     text-decoration: none;
     font-family: 'Pacifico', cursive;
 }
 
 header h1 a:hover {
     text-decoration: underline;
-    color: white;
+    background: #FAA71A;
 }
 
 header .navigation {
@@ -108,18 +108,21 @@ header .navigation a {
 
 header .navigation a:link,
 header .navigation a:visited {
-    color: #eee;
+    color: #3A3549;
 }
 
 header .navigation a:hover,
 header .navigation a:focus {
-    color: white;
+    background: #FAA71A;
 }
 
 header .navigation a:active {
     color: #eee;
 }
 .about-event{
+    padding-top: 300px;
+        padding-bottom: 50px;
+
 }
 .about-event p{
     line-height: 24px;
@@ -129,8 +132,61 @@ header .navigation a:active {
     
 }
 
-.text-wrapper{
-        background: #D65838;
+.main{
+/*        background: #D65838;*/
+/*    padding: 40px;*/
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    background: #FAA71A;
+}
+.main h2{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.main .personal{
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    height: 650px;*/
+/*    z-index: 0;*/
+/*    background: #6C72B6;*/
+    margin-top: 5px;
+/*    padding-top: 75px*/
+    margin: auto;
+    max-width: 500px;
+    padding-bottom: 15px;
+        margin-top: 50px;
+
+    
+}
+  .main .personal h3{
+/*        color: #FEEDDF;*/
+/*    text-align: center*/
+    
+}
+.main .listen{
+        position: relative;
+    width: 100%;
+    height: 650px;
+    z-index: 0;
+        background: #F2C4B0;
+        min-height: 530px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 40px;
+    margin-top: 70px;
+    padding-top: 30px;
+
+}
+.main .yourself{
+        position: relative;
+    width: 100%;
+    height: 650px;
+    z-index: 0;
+        color: #6C72B6;
+    margin-top: 50px;
+
 }
 
 footer{
