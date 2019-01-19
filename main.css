@@ -59,6 +59,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index:1000; 
 }
 
 header h1 {
@@ -68,6 +69,8 @@ header h1 {
     vertical-align: top;
     color: lemonchiffon;
     padding-left: 18px;
+    color: #3A3549;
+
 }
 
 header h1 a {
@@ -86,7 +89,7 @@ header .navigation {
     text-align: right;
     vertical-align: top;
     margin-top: 7px;
-/*    float: right;*/
+    float: right;
 
 }
 
@@ -121,9 +124,8 @@ header .navigation a:active {
     color: #eee;
 }
 .about-event{
-    padding-top: 60px;
-        padding-bottom: 0px;
-    
+    padding-top: 70px;
+    padding-bottom: 0px;
 
 }
 .about-event p{
@@ -136,9 +138,11 @@ header .navigation a:active {
 .about-wrapper{
     padding-bottom: 10px;
     text-align: center;
+    background: #FAA71A;
+    padding-bottom: 70px;
 }
  .imagesMain {
- position:relative;
+    position:relative;
     display: inline-block;
 
     width:100%;
@@ -154,17 +158,17 @@ header .navigation a:active {
     height: 300px;
     width: 200px;
     margin-left:-4px; /* trick for remove the space beetwen */
+    margin-right: 30px; 
 }
-
-
+ 
 .main{
 /*        background: #D65838;*/
 /*    padding-top: 70px;*/
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    background: #FAA71A;
-    padding-top: 70px;
+/*    background: #FAA71A;*/
+/*    padding-top: 25px;*/
 }
 .main h2{
     text-align: center;
@@ -175,6 +179,8 @@ header .navigation a:active {
 /*margin-left: auto;*/
 /*    margin-right: auto;*/
 /*    width: 1500px;*/
+        background: #6C72B6;
+
 }
 
 
@@ -184,14 +190,14 @@ header .navigation a:active {
 /*    height: 650px;*/
 /*    z-index: 0;*/
 /*    background: #6C72B6;*/
-    margin-top: 5px;
-/*    padding-top: 75px*/
+/*    margin-top: 35px;*/
+    padding-top: 90px;
 /*    max-width: 500px;*/
 /*    padding-bottom: 15px;*/
 /*        margin-top: 10px;*/
 /*margin-left: 350px;*/
     padding-left: 40px;
-    
+    padding-bottom: 180px;
 }
   .main .info .personal .right-personal h3{
 /*        color: #FEEDDF;*/
@@ -210,24 +216,112 @@ header .navigation a:active {
     width: 100%;
     overflow: hidden;
     padding-left: 40px;
-    margin-top: 70px;
+/*    margin-top: 70px;*/
     padding-top: 30px;
 
 }
 .main .yourself{
         position: relative;
     width: 100%;
-    height: 250px;
+    height: 450px;
     z-index: 0;
-        color: #6C72B6;
+        background: #FEEDDF;
     margin-top: 50px;
     padding-left: 40px;
 
 }
 
+/*
+.main .yourself .inspirations {
+	position: absolute;
+	color: #fff;
+	bottom: 0;
+	padding-bottom: 6px;
+	font-family: sans-serif;
+	width: 100%;
+	text-align: center;
+	pointer-events: none;
+}
+*/
+.main .yourself .inspirations  {
+ position:relative;
+    display: inline-block;
+
+    width:100%;
+    height:350px;
+    margin-top:100px;
+
+
+    text-align:center;
+  }
+
+.main .yourself .inspirations  a {
+    position: absolute;
+  }
+.main .yourself .inspirations  a img {
+/*
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    
+*/
+        height: 300px;
+    width: 200px;
+    margin-left:-4px; /* trick for remove the space beetwen */
+  }
+
+ .contact {
+    background: #F2C4B0;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+/*    color: #fff;*/
+/*    padding-top: 50px;*/
+    padding-bottom: 31px;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.contact .inner-contact:before {
+    display: table;
+    content: " ";
+    box-sizing: border-box;
+}
+
+.contact .inner-contact {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+    content: " ";
+}
+
+.contact h2 {
+/*    margin-top: 1rem;*/
+/*    margin-bottom: 1rem;*/
+/*    color: white;*/
+}
+
+.contact #logo {
+    padding-top: 2px;
+    text-align: center;
+    margin: 0;
+}
+
+.contact .social-icon {
+    width: 40px;
+    height: 40px;
+    margin: 18px 9px -28px 9px;
+}
+
+
 footer{
-   padding: 40px;
+   padding: 13px;
     display: block;
+        background: #6C72B6;
 }
 footer .credits{
 /*    margin-top: 100px;*/
