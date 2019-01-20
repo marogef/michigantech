@@ -357,10 +357,10 @@ footer .credits{
       left: auto;
     }
 header .navigation{
-        width: 40%;
+        width: 25%;
     }
 .main .yourself .inspirations img
     {
-        max-width: 190%; 
+        max-width: 300%; 
     }
 }
