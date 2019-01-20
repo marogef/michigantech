@@ -176,7 +176,7 @@ header .navigation a:active {
 
 .main .info .personal { 
     padding-top: 90px; 
-    padding-left: 40px;
+    padding-left: 10px;
     padding-bottom: 180px;
 } 
 
@@ -190,7 +190,7 @@ header .navigation a:active {
     position: relative;
     width: 100%;
     overflow: hidden;
-    padding-left: 40px;
+    padding-left: 10px;
     padding-top: 30px;
 
 }
@@ -206,7 +206,7 @@ header .navigation a:active {
     z-index: 0;
         background: #FEEDDF;
     margin-top: 50px;
-    padding-left: 40px;
+    padding-left: 10px;
 
 }
  
@@ -361,6 +361,6 @@ header .navigation{
     }
 .main .yourself .inspirations img
     {
-        max-width: 300%; 
+        max-width: 30%; 
     }
 }
