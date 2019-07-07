@@ -28,6 +28,7 @@ body {
     font-family: JohnstonMdITCTT, Verdana, Helvetica, sans-serif;
     font-weight: normal;
     font-style: normal;
+    font-size: 14px;
     color: #3A3549;
     margin: 0;
 }
@@ -202,6 +203,16 @@ header .navigation a:active {
 
 
 }
+.main .toolbox{
+/*      margin-top: 100px;*/
+/*    padding-top: 125px;*/
+
+}
+.main .job-boards{
+        padding-top: 70px;
+    padding-bottom: 20px;
+        background: #FAA71A;
+}
 .main .yourself{
         position: relative;
     width: 100%;
@@ -235,7 +246,15 @@ header .navigation a:active {
     width: 200px;
     margin-left:-4px;  
   }
+.interview{
+/*    padding-top: 50px;*/
+}
+.interview-section{
+    padding-top: 50px;
+        background: #6C72B6;
+    padding-bottom: 30px;
 
+}
  .contact {
 /*    background: #F2C4B0;*/
     background-size: cover;
