@@ -196,6 +196,9 @@ header .navigation a:active {
 /*    overflow: hidden;*/
     padding-left: 10px;
     padding-top: 30px;
+        font-size: 14px;
+
+    
 
 }
   .success{ 
