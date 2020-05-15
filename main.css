@@ -127,6 +127,7 @@ header .navigation a:active {
 .about-event{
     padding-top: 70px;
     padding-bottom: 0px;
+    margin-top: 50px;
 
 }
 .about-event p{
@@ -154,11 +155,6 @@ header .navigation a:active {
 
 .imagesMain img{
     height: 300px;
-/*
-    width: 200px;
-    margin-left:-4px;  trick for remove the space beetwen 
-    margin-right: 30px; 
-*/
     margin-bottom: 30px;
 }
  
@@ -181,22 +177,18 @@ header .navigation a:active {
 .main .info .personal { 
     padding-top: 90px; 
     padding-left: 10px;
+    padding-right: 10px;
     padding-bottom: 180px;
 } 
 
 .main .listen{
-/*        position: relative;*/
     width: 100%;
     height: 50px;
-/*    z-index: 0;*/
-        background: #F2C4B0;
-        min-height: 330px;
-/*    position: relative;*/
-/*    width: 100%;*/
-/*    overflow: hidden;*/
+    background: #F2C4B0;
+    min-height: 330px;
     padding-left: 10px;
     padding-top: 30px;
-        font-size: 14px;
+    font-size: 14px;
 
     
 
@@ -206,22 +198,17 @@ header .navigation a:active {
 
 
 }
-.main .toolbox{
-/*      margin-top: 100px;*/
-/*    padding-top: 125px;*/
-
-}
 .main .job-boards{
         padding-top: 70px;
     padding-bottom: 20px;
+        padding-left: 10px;
         background: #FAA71A;
 }
 .main .yourself{
-        position: relative;
+    position: relative;
     width: 100%;
-/*    height: 450px;*/
     z-index: 0;
-        background: #FEEDDF;
+    background: #FEEDDF;
     margin-top: 50px;
     padding-left: 10px;
 
@@ -230,12 +217,8 @@ header .navigation a:active {
 .main .yourself .inspirations  {
  position:relative;
     display: inline-block;
-
     width:100%;
-/*    height:350px;*/
     margin-top:100px;
-
-
     text-align:center;
   }
 
@@ -243,23 +226,20 @@ header .navigation a:active {
     position: absolute;
   }
 .main .yourself .inspirations  a img {
- 
-
         height: 300px;
     width: 200px;
     margin-left:-4px;  
   }
-.interview{
-/*    padding-top: 50px;*/
-}
 .interview-section{
     padding-top: 50px;
         background: #6C72B6;
     padding-bottom: 30px;
+        padding-left: 10px;
+    padding-right: 10px;
+
 
 }
  .contact {
-/*    background: #F2C4B0;*/
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
@@ -310,9 +290,10 @@ footer .credits{
 }
 
 /*media queries*/
-@media only screen and (max-width: 1200px) {
- 
-     .main .yourself .inspirations img{
+@media only screen and (max-width: 1200px) 
+{
+     .main .yourself .inspirations img
+    {
         max-width: 27%;
     }
 }
@@ -359,7 +340,7 @@ footer .credits{
 @media only screen and (max-width: 450px) {
  
     .imagesMain img {
-            max-width: 35%;
+            max-width: 85%;
      }
     header .navigation li {
         display: inline-block;
@@ -367,8 +348,6 @@ footer .credits{
     }
         .main .yourself .inspirations img{
         max-width: 30%;
-/*        padding-bottom: 150px;*/
-
     }
 }
 
@@ -376,13 +355,13 @@ footer .credits{
 @media only screen and (max-width: 320px) {
 .imagesMain img
     {
-      max-width: 35%;
+      max-width: 90%;
       position: relative;
       bottom: auto;
       left: auto;
     }
 header .navigation{
-        width: 25%;
+        width: 30%;
     }
 .main .yourself .inspirations img
     {
