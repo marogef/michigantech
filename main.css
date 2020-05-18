@@ -142,6 +142,8 @@ header .navigation a:active {
     text-align: center;
     background: #FAA71A;
     padding-bottom: 70px;
+    padding-right: 10px;
+
 }
  .imagesMain {
     position:relative;
